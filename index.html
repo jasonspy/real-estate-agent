@@ -16,6 +16,12 @@
     - custom css link
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./styles.css">
+  
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
 
   <!-- 
     - google font link
@@ -35,24 +41,17 @@
   <header class="header" data-header>
     <div class="container">
 
-      <a href="./index.html" class="logo">
+      <a href="#" class="logo" data-aos="zoom-in-left" data-aos-delay="150">
         <ion-icon name="business-outline"></ion-icon> Realvine
       </a>
 
       <nav class="navbar container" data-navbar>
-        <ul class="navbar-list">
+        <ul class="navbar-list" data-aos="zoom-in-left" data-aos-delay="150">
 
           <li>
             <a href="#" class="navbar-link" data-nav-link>Home</a>
           </li>
 
-          <!-- <li>
-            <a href="#" class="navbar-link" data-nav-link>Buy</a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-link" data-nav-link>Sell</a>
-          </li> -->
           <li>
             <a href="./about.html" class="navbar-link" data-nav-link>About Us</a>
           </li>
@@ -61,8 +60,6 @@
             <a href="./gallery.html" class="navbar-link" data-nav-link>Gallery</a>
           </li>
 
-          
-
           <li>
             <a href="./contact.html" class="navbar-link" data-nav-link>Contact</a>
           </li>
@@ -70,7 +67,7 @@
         </ul>
       </nav>
 
-      <a href="#" class="btn btn-secondary">Signup</a>
+      <a data-aos="zoom-in-left" data-aos-delay="150" href="./sign-in.html" class="btn btn-secondary">Signup</a>
 
       <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
         <ion-icon name="menu-outline" aria-hidden="true" class="menu-icon"></ion-icon>
@@ -79,44 +76,30 @@
 
     </div>
   </header>
-
-
-
-
-
   <main>
     <article class="article">
-
-      <!-- 
-        - #HERO
-      -->
-
       <section class="section hero" aria-label="hero">
         <div class="container">
 
           <div class="hero-bg">
             <div class="hero-content">
 
-              <h1 class="h1 hero-title">
+              <h1 class="h1 hero-title" data-aos="fade-up" data-aos-delay="250">
                 We will help you find your <span class="span">Wonderful</span> home
               </h1>
 
-              <p class="hero-text">
+              <p class="hero-text" data-aos="fade-up" data-aos-delay="350">
                 A great plateform to buy, sell and rent your properties without any agent or commisions.
               </p>
 
             </div>
           </div>
-
-          <div class="hero-form-wrapper">
+          <div class="hero-form-wrapper"  data-aos="fade-up" data-aos-delay="400">
             <div class="form-tab">
-
               <button class="tab-btn active" data-tab-btn>Buy</button>
               <button class="tab-btn" data-tab-btn>Sell</button>
               <button class="tab-btn" data-tab-btn>Rent</button>
-
             </div>
-
             <form action="" class="hero-form">
 
               <div class="input-wrapper">
@@ -184,21 +167,12 @@
 
         </div>
       </section>
-
-
-
-
-
-      <!-- 
-        - #ABOUT
-      -->
-
       <section class="section about" aria-label="about">
-        <h1 style="text-align: center; margin: 4rem; font-size: 4rem;">ABOUT US</h1>
+        <h1 style="text-align: center; margin: 4rem; font-size: 4rem;"  data-aos="fade-up" data-aos-delay="300">ABOUT US</h1>
         <div class="container">
-          
 
-          <div class="about-banner img-holder" style="--width: 600; --height: 700;">
+
+          <div class="about-banner img-holder" style="--width: 600; --height: 700;"  data-aos="zoom-in-right" data-aos-delay="350">
             <img src="./assets/images/about-banner.jpg" width="600" height="700" loading="lazy" alt="about banner"
               class="img-cover">
 
@@ -209,9 +183,9 @@
 
           <div class="about-content">
 
-            <h2 class="h2 section-title">Efficiency. Transparency. Control.</h2>
+            <h2 class="h2 section-title"  data-aos="fade-up" data-aos-delay="350">Efficiency. Transparency. Control.</h2>
 
-            <p class="section-text">
+            <p class="section-text"  data-aos="fade-up" data-aos-delay="250">
               Hously developed a platform for the Real Estate marketplace that allows buyers and sellers to easily
               execute a
               transaction on their own. The platform drives efficiency, cost transparency and control into the hands of
@@ -219,31 +193,22 @@
               Hously is Real Estate Redefined.
             </p>
 
-            <a href="#" class="btn btn-primary">Learn More</a>
+            <a href="#" class="btn btn-primary" data-aos="zoom-in-left" data-aos-delay="300">Learn More</a>
 
           </div>
 
         </div>
       </section>
-
-
-
-
-
-      <!-- 
-        - #SERVICE
-      -->
-
       <section class="section service" aria-label="service">
         <div class="container">
 
-          <h2 class="h2 section-title">How It Works</h2>
+          <h2 class="h2 section-title" data-aos="fade-up" data-aos-delay="400">How It Works</h2>
 
-          <p class="section-text">
+          <p class="section-text" data-aos="fade-up" data-aos-delay="450">
             A great plateform to buy, sell and rent your properties without any agent or commisions.
           </p>
 
-          <ul class="service-list">
+          <ul class="service-list" data-aos="fade-up" data-aos-delay="500">
 
             <li>
               <div class="service-card">
@@ -297,28 +262,19 @@
 
         </div>
       </section>
-
-
-
-
-
-      <!-- 
-        - #PROPERTY
-      -->
-
       <section class="section property" aria-label="property">
         <div class="container">
 
-          <h2 class="h2 section-title">Featured Properties</h2>
+          <h2 class="h2 section-title" data-aos="fade-up" data-aos-delay="400">Featured Properties</h2>
 
-          <p class="section-text">
+          <p class="section-text" data-aos="zoom-in-up" data-aos-delay="400">
             A great plateform to buy, sell and rent your properties without any agent or commisions.
           </p>
 
           <ul class="property-list">
 
             <li>
-              <div class="property-card">
+              <div class="property-card" data-aos="zoom-in-left" data-aos-delay="300">
 
                 <figure class="card-banner img-holder" style="--width: 800; --height: 533;">
                   <img src="./assets/images/property-1.jpg" width="800" height="533" loading="lazy"
@@ -397,7 +353,7 @@
             </li>
 
             <li>
-              <div class="property-card">
+              <div class="property-card" data-aos="zoom-in-left" data-aos-delay="350">
 
                 <figure class="card-banner img-holder" style="--width: 800; --height: 533;">
                   <img src="./assets/images/property-2.jpg" width="800" height="533" loading="lazy"
@@ -476,7 +432,7 @@
             </li>
 
             <li>
-              <div class="property-card">
+              <div class="property-card" data-aos="zoom-in-left" data-aos-delay="400">
 
                 <figure class="card-banner img-holder" style="--width: 800; --height: 533;">
                   <img src="./assets/images/property-3.jpg" width="800" height="533" loading="lazy"
@@ -555,7 +511,7 @@
             </li>
 
             <li>
-              <div class="property-card">
+              <div class="property-card" data-aos="zoom-in-left" data-aos-delay="450">
 
                 <figure class="card-banner img-holder" style="--width: 800; --height: 533;">
                   <img src="./assets/images/property-4.jpg" width="800" height="533" loading="lazy"
@@ -634,7 +590,7 @@
             </li>
 
             <li>
-              <div class="property-card">
+              <div class="property-card" data-aos="zoom-in-left" data-aos-delay="500">
 
                 <figure class="card-banner img-holder" style="--width: 800; --height: 533;">
                   <img src="./assets/images/property-5.jpg" width="800" height="533" loading="lazy"
@@ -713,7 +669,7 @@
             </li>
 
             <li>
-              <div class="property-card">
+              <div class="property-card" data-aos="zoom-in-left" data-aos-delay="550">
 
                 <figure class="card-banner img-holder" style="--width: 800; --height: 533;">
                   <img src="./assets/images/property-6.jpg" width="800" height="533" loading="lazy"
@@ -795,51 +751,83 @@
 
         </div>
       </section>
+      <section class="customers">
+        <h1
+          style="text-align: center; color: rgb(53, 53, 53); font-size: 5rem; margin: 4rem; text-shadow: 1px 1px 1px rgb(158, 255, 169)" data-aos="fade-up" data-aos-delay="400">
+          Customers Review</h1>
+        <div class="container1">
+          <div class="container__left" data-aos="zoom-in-right" data-aos-delay="450">
+            <h1>Read what our customers love about us</h1>
+            <p>
+              Over 200 customers from different countries have been a successful contribution to our brand
+            </p>
+            <p>
+              We have helped Clients secure their deserved base and houses
+              according to their budget and house plan.
+            </p>
+          </div>
+          <div class="container__right" data-aos="zoom-in-left" data-aos-delay="500">
+            <div class="card">
+              <img src="./assets/images/p1.jpg" alt="user" />
+              <div class="card__content">
+                <span><i class="ri-double-quotes-l"></i></span>
+                <div class="card__details">
+                  <p>
+                    "Working with Realvine was an absolute pleasure. They helped us find our dream home in a competitive
+                    market and were always there to answer our questions.
+                    The team made the entire process smooth and stress-free. Highly recommend!"
+                  </p>
+                  <h4>- Marnus Stephen</h4>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/images/p2.jpg" alt="user" />
+              <div class="card__content">
+                <span><i class="ri-double-quotes-l"></i></span>
+                <div class="card__details">
+                  <p>
+                    "I’ve bought several homes in my life, but my experience with Realvine was by far the best. They are
+                    professional, knowledgeable, and incredibly patient.
+                    They took the time to understand my needs and delivered exactly what I was looking for."
+                  </p>
+                  <h4>- Dinero </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-
-
-
-
-      <!-- 
-        - #CONTACT
-      -->
+      </section>
 
       <section class="section contact" aria-label="contact">
         <div class="container">
 
-          <h2 class="h2 section-title">Have Question ? Get in touch!</h2>
+          <h2 class="h2 section-title" data-aos="fade-up" data-aos-delay="400">Have Question ? Get in touch!</h2>
 
-          <p class="section-text">
+          <p class="section-text" data-aos="fade-up" data-aos-delay="500">
             A great plateform to buy, sell and rent your properties without any agent or commisions.
           </p>
 
-          <button class="btn btn-primary">
+          <button class="btn btn-primary" data-aos="fade-up" data-aos-delay="600">
             <ion-icon name="call-outline"></ion-icon>
 
-            <span class="span">Contact us</span>
+            <a href="./contact.html"><span class="span">Contact us</span></a>
           </button>
 
         </div>
       </section>
 
-
-
-
-
-      <!-- 
-        - #NEWSLETTER
-      -->
-
-      <section class="newsletter" aria-label="newsletter">
+      <section class="newsletter" aria-label="newsletter" >
         <div class="container">
 
-          <div class="wrapper">
+          <div class="wrapper" data-aos="zoom-in-right" data-aos-delay="500">
             <h2 class="h2 section-title">Subscribe to Newsletter!</h2>
 
             <p class="section-text">Subscribe to get latest updates and information.</p>
           </div>
 
-          <form action="" class="newsletter-form">
+          <form action="" class="newsletter-form" data-aos="zoom-in-left" data-aos-delay="500">
             <input type="email" name="email_address" placeholder="Enter your email :" aria-label="Enter your email"
               required class="email-field">
 
@@ -851,21 +839,12 @@
 
     </article>
   </main>
-
-
-
-
-
-  <!-- 
-    - #FOOTER
-  -->
-
   <footer class="footer">
 
     <div class="footer-top">
       <div class="container">
 
-        <div class="footer-brand">
+        <div class="footer-brand" data-aos="zoom-in-right" data-aos-delay="500">
 
           <a href="#" class="logo">
             <ion-icon name="business-outline"></ion-icon> Realvine
@@ -877,7 +856,7 @@
 
         </div>
 
-        <ul class="footer-list">
+        <ul class="footer-list" data-aos="zoom-in-right" data-aos-delay="600">
 
           <li>
             <p class="footer-list-title">Company</p>
@@ -925,7 +904,7 @@
 
         </ul>
 
-        <ul class="footer-list">
+        <ul class="footer-list" data-aos="zoom-in-left" data-aos-delay="600">
 
           <li>
             <p class="footer-list-title">Useful Links</p>
@@ -965,7 +944,7 @@
 
         </ul>
 
-        <ul class="footer-list">
+        <ul class="footer-list" data-aos="zoom-in-left" data-aos-delay="500">
 
           <li>
             <p class="footer-list-title">Contact Details</p>
@@ -1039,25 +1018,10 @@
 
   </footer>
 
-
-
-
-
-  <!-- 
-    - #BACK TO TOP
-  -->
-
   <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
     <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
   </a>
 
-
-
-
-
-  <!-- 
-    - custom js link
-  -->
   <script src="./assets/js/script.js" defer></script>
 
   <!-- 
@@ -1065,6 +1029,13 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800,
+        offset: 150,
+      });
+    </script>
 
 </body>
 

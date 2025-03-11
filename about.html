@@ -16,6 +16,7 @@
     - custom css link
   -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 
     <!-- 
     - google font link
@@ -35,17 +36,16 @@
     <header class="header" data-header>
         <div class="container">
 
-            <a href="./index.html" class="logo">
+            <a href="./index.html" class="logo" data-aos="zoom-in-left" data-aos-delay="150">
                 <ion-icon name="business-outline"></ion-icon> Realvine
             </a>
 
             <nav class="navbar container" data-navbar>
-                <ul class="navbar-list">
+                <ul class="navbar-list" data-aos="zoom-in-left" data-aos-delay="150">
 
                     <li>
                         <a href="./index.html" class="navbar-link" data-nav-link>Home</a>
                     </li>
-
 
                     <li>
                         <a href="./about.html" class="navbar-link" data-nav-link>About Us</a>
@@ -55,7 +55,6 @@
                         <a href="./gallery.html" class="navbar-link" data-nav-link>Gallery</a>
                     </li>
 
-
                     <li>
                         <a href="./contact.html" class="navbar-link" data-nav-link>Contact</a>
                     </li>
@@ -63,7 +62,7 @@
                 </ul>
             </nav>
 
-            <a href="#" class="btn btn-secondary">Signup</a>
+            <a data-aos="zoom-in-left" data-aos-delay="150" href="./sign-in.html" class="btn btn-secondary">Signup</a>
 
             <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
                 <ion-icon name="menu-outline" aria-hidden="true" class="menu-icon"></ion-icon>
@@ -90,11 +89,11 @@
                     <div class="hero-bg">
                         <div class="hero-content">
 
-                            <p class="hero-text">
+                            <p class="hero-text" data-aos="fade-up" data-aos-delay="300">
                                 About us -
                             </p>
 
-                            <h1 class="h1 hero-title" style="font-size: 5rem;">
+                            <h1 class="h1 hero-title" style="font-size: 5rem;" data-aos="fade-up" data-aos-delay="400">
                                 About us - <span class="span" style="font-size: 3rem">Who We Are?</span>
                             </h1>
                         </div>
@@ -119,7 +118,8 @@
                 <div class="container">
 
 
-                    <div class="about-banner img-holder" style="--width: 600; --height: 700;">
+                    <div class="about-banner img-holder" style="--width: 600; --height: 700;" data-aos="zoom-in-right"
+                        data-aos-delay="700">
                         <img src="./assets/images/about-banner.jpg" width="600" height="700" loading="lazy"
                             alt="about banner" class="img-cover">
 
@@ -130,9 +130,10 @@
 
                     <div class="about-content">
 
-                        <h2 class="h2 section-title">Efficiency. Transparency. Control.</h2>
+                        <h2 class="h2 section-title" data-aos="zoom-in-left" data-aos-delay="700">Efficiency.
+                            Transparency. Control.</h2>
 
-                        <p class="section-text">
+                        <p class="section-text" data-aos="zoom-in-left" data-aos-delay="800">
                             Hously developed a platform for the Real Estate marketplace that allows buyers and sellers
                             to easily
                             execute a
@@ -142,7 +143,7 @@
                             Hously is Real Estate Redefined.
                         </p>
 
-                        <a href="#" class="btn btn-primary">Learn More</a>
+                        <a href="#" class="btn btn-primary" data-aos="fade-up" data-aos-delay="700">Learn More</a>
 
                     </div>
 
@@ -157,13 +158,13 @@
             <section class="section service" aria-label="service">
                 <div class="container">
 
-                    <h2 class="h2 section-title">How It Works</h2>
+                    <h2 class="h2 section-title" data-aos="fade-up" data-aos-delay="400">How It Works</h2>
 
-                    <p class="section-text">
+                    <p class="section-text" data-aos="fade-up" data-aos-delay="450">
                         A great plateform to buy, sell and rent your properties without any agent or commisions.
                     </p>
 
-                    <ul class="service-list">
+                    <ul class="service-list" data-aos="fade-up" data-aos-delay="500">
 
                         <li>
                             <div class="service-card">
@@ -220,26 +221,24 @@
 
                 </div>
 
+                <section class="section contact" aria-label="contact">
+                    <div class="container">
 
-            </section>
+                        <h2 class="h2 section-title" data-aos="fade-up" data-aos-delay="400">Have Question ? Get in
+                            touch!</h2>
 
-            <section class="section contact" aria-label="contact">
-                <div class="container">
+                        <p class="section-text" data-aos="fade-up" data-aos-delay="500">
+                            A great plateform to buy, sell and rent your properties without any agent or commisions.
+                        </p>
 
-                    <h2 class="h2 section-title">Have Question ? Get in touch!</h2>
+                        <button class="btn btn-primary" data-aos="fade-up" data-aos-delay="600">
+                            <ion-icon name="call-outline"></ion-icon>
 
-                    <p class="section-text">
-                        A great plateform to buy, sell and rent your properties without any agent or commisions.
-                    </p>
+                            <a href="./contact.html"><span class="span">Contact us</span></a>
+                        </button>
 
-                    <button class="btn btn-primary">
-                        <ion-icon name="call-outline"></ion-icon>
-
-                        <span class="span">Contact us</span>
-                    </button>
-
-                </div>
-            </section>
+                    </div>
+                </section>
 
 
 
@@ -252,217 +251,224 @@
 
 
 
-
-            <!-- 
+                <!-- 
     - #FOOTER
   -->
 
-            <footer class="footer">
+                <footer class="footer">
 
-                <div class="footer-top">
-                    <div class="container">
+                    <div class="footer-top">
+                        <div class="container">
 
-                        <div class="footer-brand">
+                            <div class="footer-brand" data-aos="zoom-in-right" data-aos-delay="500">
 
-                            <a href="#" class="logo">
-                                <ion-icon name="business-outline"></ion-icon> Realvine
-                            </a>
+                                <a href="#" class="logo">
+                                    <ion-icon name="business-outline"></ion-icon> Realvine
+                                </a>
 
-                            <p class="footer-text">
-                                A great plateform to buy, sell and rent your properties without any agent or commisions.
-                            </p>
+                                <p class="footer-text">
+                                    A great plateform to buy, sell and rent your properties without any agent or
+                                    commisions.
+                                </p>
+
+                            </div>
+
+                            <ul class="footer-list" data-aos="zoom-in-right" data-aos-delay="600">
+
+                                <li>
+                                    <p class="footer-list-title">Company</p>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="footer-link">
+                                        <ion-icon name="chevron-forward"></ion-icon>
+
+                                        <span class="span">About us</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="footer-link">
+                                        <ion-icon name="chevron-forward"></ion-icon>
+
+                                        <span class="span">Services</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="footer-link">
+                                        <ion-icon name="chevron-forward"></ion-icon>
+
+                                        <span class="span">Pricing</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="footer-link">
+                                        <ion-icon name="chevron-forward"></ion-icon>
+
+                                        <span class="span">Blog</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="footer-link">
+                                        <ion-icon name="chevron-forward"></ion-icon>
+
+                                        <span class="span">Login</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                            <ul class="footer-list" data-aos="zoom-in-left" data-aos-delay="600">
+
+                                <li>
+                                    <p class="footer-list-title">Useful Links</p>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="footer-link">
+                                        <ion-icon name="chevron-forward"></ion-icon>
+
+                                        <span class="span">Terms of Services</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="footer-link">
+                                        <ion-icon name="chevron-forward"></ion-icon>
+
+                                        <span class="span">Privacy Policy</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="footer-link">
+                                        <ion-icon name="chevron-forward"></ion-icon>
+
+                                        <span class="span">Listing</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="footer-link">
+                                        <ion-icon name="chevron-forward"></ion-icon>
+
+                                        <span class="span">Contact</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                            <ul class="footer-list" data-aos="zoom-in-left" data-aos-delay="500">
+
+                                <li>
+                                    <p class="footer-list-title">Contact Details</p>
+                                </li>
+
+                                <li class="footer-item">
+                                    <ion-icon name="location-outline"></ion-icon>
+
+                                    <address class="address">
+                                        C/54 Northwest Freeway,<br>
+                                        Suite 558,<br>
+                                        Houston, USA 485
+                                        <a href="#" class="address-link">View on Google map</a>
+                                    </address>
+                                </li>
+
+                                <li class="footer-item">
+                                    <ion-icon name="mail-outline"></ion-icon>
+
+                                    <a href="mailto:contact@example.com" class="footer-link">dinero@gamil.com</a>
+                                </li>
+
+                                <li class="footer-item">
+                                    <ion-icon name="call-outline"></ion-icon>
+
+                                    <a href="tel:+152534468854" class="footer-link">+152 534-468-854</a>
+                                </li>
+
+                            </ul>
 
                         </div>
-
-                        <ul class="footer-list">
-
-                            <li>
-                                <p class="footer-list-title">Company</p>
-                            </li>
-
-                            <li>
-                                <a href="#" class="footer-link">
-                                    <ion-icon name="chevron-forward"></ion-icon>
-
-                                    <span class="span">About us</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#" class="footer-link">
-                                    <ion-icon name="chevron-forward"></ion-icon>
-
-                                    <span class="span">Services</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#" class="footer-link">
-                                    <ion-icon name="chevron-forward"></ion-icon>
-
-                                    <span class="span">Pricing</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#" class="footer-link">
-                                    <ion-icon name="chevron-forward"></ion-icon>
-
-                                    <span class="span">Blog</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#" class="footer-link">
-                                    <ion-icon name="chevron-forward"></ion-icon>
-
-                                    <span class="span">Login</span>
-                                </a>
-                            </li>
-
-                        </ul>
-
-                        <ul class="footer-list">
-
-                            <li>
-                                <p class="footer-list-title">Useful Links</p>
-                            </li>
-
-                            <li>
-                                <a href="#" class="footer-link">
-                                    <ion-icon name="chevron-forward"></ion-icon>
-
-                                    <span class="span">Terms of Services</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#" class="footer-link">
-                                    <ion-icon name="chevron-forward"></ion-icon>
-
-                                    <span class="span">Privacy Policy</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#" class="footer-link">
-                                    <ion-icon name="chevron-forward"></ion-icon>
-
-                                    <span class="span">Listing</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#" class="footer-link">
-                                    <ion-icon name="chevron-forward"></ion-icon>
-
-                                    <span class="span">Contact</span>
-                                </a>
-                            </li>
-
-                        </ul>
-
-                        <ul class="footer-list">
-
-                            <li>
-                                <p class="footer-list-title">Contact Details</p>
-                            </li>
-
-                            <li class="footer-item">
-                                <ion-icon name="location-outline"></ion-icon>
-
-                                <address class="address">
-                                    C/54 Northwest Freeway,<br>
-                                    Suite 558,<br>
-                                    Houston, USA 485
-                                    <a href="#" class="address-link">View on Google map</a>
-                                </address>
-                            </li>
-
-                            <li class="footer-item">
-                                <ion-icon name="mail-outline"></ion-icon>
-
-                                <a href="mailto:contact@example.com" class="footer-link">dinero@gamil.com</a>
-                            </li>
-
-                            <li class="footer-item">
-                                <ion-icon name="call-outline"></ion-icon>
-
-                                <a href="tel:+152534468854" class="footer-link">+152 534-468-854</a>
-                            </li>
-
-                        </ul>
-
                     </div>
-                </div>
 
-                <div class="footer-bottom">
-                    <div class="container">
+                    <div class="footer-bottom">
+                        <div class="container">
 
-                        <p class="copyright">
-                            &copy; 2024 Realvine. All Right Reserved by <a href="#"
-                                class="copyright-link">Dinero Code's</a>.
-                        </p>
+                            <p class="copyright">
+                                &copy; 2024 Realvine. All Right Reserved by <a href="#" class="copyright-link">Dinero
+                                    Code's</a>.
+                            </p>
 
-                        <ul class="social-list">
+                            <ul class="social-list">
 
-                            <li>
-                                <a href="#" class="social-link">
-                                    <ion-icon name="logo-facebook"></ion-icon>
-                                </a>
-                            </li>
+                                <li>
+                                    <a href="#" class="social-link">
+                                        <ion-icon name="logo-facebook"></ion-icon>
+                                    </a>
+                                </li>
 
-                            <li>
-                                <a href="#" class="social-link">
-                                    <ion-icon name="logo-instagram"></ion-icon>
-                                </a>
-                            </li>
+                                <li>
+                                    <a href="#" class="social-link">
+                                        <ion-icon name="logo-instagram"></ion-icon>
+                                    </a>
+                                </li>
 
-                            <li>
-                                <a href="#" class="social-link">
-                                    <ion-icon name="logo-twitter"></ion-icon>
-                                </a>
-                            </li>
+                                <li>
+                                    <a href="#" class="social-link">
+                                        <ion-icon name="logo-twitter"></ion-icon>
+                                    </a>
+                                </li>
 
-                            <li>
-                                <a href="#" class="social-link">
-                                    <ion-icon name="logo-linkedin"></ion-icon>
-                                </a>
-                            </li>
+                                <li>
+                                    <a href="#" class="social-link">
+                                        <ion-icon name="logo-linkedin"></ion-icon>
+                                    </a>
+                                </li>
 
-                        </ul>
+                            </ul>
 
+                        </div>
                     </div>
-                </div>
 
-            </footer>
-
+                </footer>
 
 
 
 
-            <!-- 
+
+                <!-- 
     - #BACK TO TOP
   -->
 
-            <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
-                <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
-            </a>
+                <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+                    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+                </a>
 
 
 
 
 
-            <!-- 
+                <!-- 
     - custom js link
   -->
-            <script src="./assets/js/script.js" defer></script>
+                <script src="./assets/js/script.js" defer></script>
 
-            <!-- 
+                <!-- 
     - ionicon link
   -->
-            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+                <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+                <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+                <script>
+                    AOS.init({
+                        duration: 800,
+                        offset: 150,
+                    });
+                </script>
 
 </body>
 
